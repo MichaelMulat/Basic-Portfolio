@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>CONTACT</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
@@ -41,12 +41,17 @@
             <hr>
             
             <form class="contact_form">
-                <p>Name</p>
-                <input type="text" value="name"
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" placeholder="John Smith"><br>
+
+                <label for="email">Email</label> <br>
+                <input id="email" type="email" placeholder="example@gmail.com"><br>
+
+                <label for="message">Message</label> <br>
+                <textarea id="message" rows="4" placeholder="Type your message here."> </textarea> <br>
+                
+                <input type="submit" value="Submit">
             </form>
-
-
-
 
         </article>
     </section>
